@@ -3,7 +3,7 @@
  * Manages Auth Tokens, JSON payloads, multipart file uploads, and binary file downloads.
  */
 
-const BASE_URL = '/api';
+const BASE_URL = 'https://securesharingsystem.onrender.com/api';
 
 export const getAuthToken = () => {
   return localStorage.getItem('secureshare_token') || '';
